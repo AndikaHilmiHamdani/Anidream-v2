@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Anidream</title>
+  <script src="assets/js/jquery-3.5.1.js"></script>
+  <script src="assets/js/modal.js"></script>
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous" />
+  <link rel="stylesheet" href="assets/style/styleproduct.css">
+</head>
+
+<body>
+  <header>
+    <img src="assets/img/product/header/mug/bg-cas.jpg" alt="">
+    <div class="centered">
+      <h1>Mug dan Tumblr</h1>
+      <a class="text-white" href="home.html">
+        <h5 class="font-weight-normal">Kembali ke halaman utama</h5>
+      </a>
+    </div>
+  </header>
+  <section id="products">
+    <h1>Jenis</h1>
+    <div class="row media"></div>
+  </section>
+  <section id="produksi">
+    <div class="row align-items-center w-100">
+      <div class="col-lg-6 col-12 my-2">
+        <h5 class="text-justify">
+          Penasaran dengan proses produksinya?
+          Tonton video disamping!
+        </h5>
+      </div>
+      <div class="col-lg-6 col-12 my-2">
+        <iframe class="w-100" height="325" src="https://www.youtube.com/embed/6eyXM45wC6Q"></iframe>
+      </div>
+  </section>
+  <!-- Modal -->
+  <div class="modal fade p-0" id="modal" tabindex="-1" role="dialog" aria-labelledby="modalTitle" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="modalTitle"></h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body w-100">
+          <div id="slider"></div>
+          <div id="modalDesc" class="mt-4"></div>
+          <div id="productDesc"></div>
+          <div class="row mt-2 align-items-end justify-content-center">
+            <div id="promo" class="promo-wrapper">
+              <span class="font-weight-normal">Promo berlaku hingga</span>
+              <div class="row my-2">
+                <div class="col-3 px-2">
+                  <div class="digit">
+                    <span id="days">0</span>
+                    <span class="digit-label">Hari</span>
+                  </div>
+                </div>
+                <div class="col-3 px-2">
+                  <div class="digit">
+                    <span id="hours">0</span>
+                    <span class="digit-label">Jam</span>
+                  </div>
+                </div>
+                <div class="col-3 px-2">
+                  <div class="digit">
+                    <span id="minutes">0</span>
+                    <span class="digit-label">Menit</span>
+                  </div>
+                </div>
+                <div class="col-3 px-2">
+                  <div class="digit">
+                    <span id="seconds">0</span>
+                    <span class="digit-label">Detik</span>
+                  </div>
+                </div>
+              </div>
+              <span>*Untuk 20 orang pertama</span>
+            </div>
+            <div class="col-12 col-lg-5 mt-4">
+              <div class="d-flex flex-column px-4 text-center ">
+                <span id="price-discount" class="price-discount"></span>
+                <span id="price" class="price"></span>
+              </div>
+            </div>
+            <div>
+              <div class="d-flex justify-content-end w-100">
+                <a class="btn btn-dark" href="https://wa.me/6285785170426?text=Halo%20kak%20saya%20mau%20pesan">Order Now</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <footer id="footer">
+    <h1>Testimoni</h1>
+    <div class="row media">
+      <div class="col">
+        <img src="assets/img/product/testimoni/mug/testimoni_case_iphone_1526735334_761802fb.jpg" alt="" srcset="">
+      </div>
+      <div class="col">
+        <img src="assets/img/product/testimoni/mug/testimonicustomcase18.jpg" alt="" srcset="">
+      </div>
+    </div>
+  </footer>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+    crossorigin="anonymous"></script>
+  <script src="assets/js/product.js"></script>
+</body>
+
+</html>

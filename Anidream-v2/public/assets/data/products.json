@@ -1,0 +1,52 @@
+{
+  "products": [
+    {
+      "name": "Fashion",
+      "thumbnail": "/assets/img/product/thumbnail/kaos.png",
+      "url": "/fashion.html",
+      "data": "/assets/data/fashion.json",
+      "description": [
+        "*TEST",
+        "*Desain EXCLUSIVE atau Request design sesuka kamu",
+        "*Tersedia Untuk Semua HP",
+        "*Garansi Untuk Case Longgar / Kekecilan, Rusak /Hilang Di Ekpedisi"
+      ]
+    },
+    {
+      "name": "Mug & Tumblr",
+      "thumbnail": "/assets/img/product/thumbnail/mug.png",
+      "url": "/mug.html",
+      "data": "/assets/data/mug.json",
+      "description": [
+        "*TEST",
+        "*Desain EXCLUSIVE atau Request design sesuka kamu",
+        "*Tersedia Untuk Semua HP",
+        "*Garansi Untuk Case Longgar / Kekecilan, Rusak /Hilang Di Ekpedisi"
+      ]
+    },
+    {
+      "name": "Casing",
+      "thumbnail": "/assets/img/product/thumbnail/casing.png",
+      "url": "/casing.html",
+      "description": [
+        "*Kualitas Produk PREMIUM",
+        "*Desain EXCLUSIVE atau Request design sesuka kamu",
+        "*Tersedia Untuk Semua HP",
+        "*Garansi Untuk Case Longgar / Kekecilan, Rusak /Hilang Di Ekpedisi"
+      ],
+      "data": "/assets/data/casing.json"
+    },
+    {
+      "name": "Elektronik",
+      "thumbnail": "/assets/img/product/thumbnail/fd.png",
+      "url": "/elektronik.html",
+      "data": "/assets/data/elektronik.json",
+      "description": [
+        "*TEST",
+        "*Desain EXCLUSIVE atau Request design sesuka kamu",
+        "*Tersedia Untuk Semua HP",
+        "*Garansi Untuk Case Longgar / Kekecilan, Rusak /Hilang Di Ekpedisi"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+	"data": [
+		{
+			"name": "Hard case",
+			"price": 150000,
+			"discount": 50,
+			"discountDate": "2020-11-10 00:00:00",
+			"thumbnail": "/assets/img/product/photo/fashion/gambar1.jpg",
+			"photos": [
+				{ "url": "/assets/img/product/photo/fashion/gambar2.jpg", "label": "Coba deh" },
+				{ "url": "/assets/img/product/photo/fashion/gambar3.jpg", "label": "Cobain" }
+			],
+			"description": [
+				"Bahan plastik Polycarbonate, Kuat , ringan dan fleksibel",
+				"Warna Dasar Putih, Keras, Tahan Panas.",
+				"Gambar Dicetak Full Body Meliputi Belakang, Sisi Kanan & Kiri.",
+				"Gambar Pada Case Terjamin Awet Tidak Luntur Dan Tidak Mudah Tergores",
+				"Fungsi Tombol Tidak Bermasalah",
+				"Plug And Play"
+			]
+		},
+		{
+			"name": "Soft case",
+			"price": 130000,
+			"discount": 50,
+			"discountDate": "2020-11-08 14:22:00",
+			"thumbnail": "/assets/img/product/photo/fashion/gambar2.jpg",
+			"photos": [
+				{ "url": "/assets/img/product/photo/fashion/gambar1.jpg", "label": "Cobaaaaaa" },
+				{ "url": "/assets/img/product/photo/fashion/gambar3.jpg", "label": "Cobain" }
+			],
+			"description": [
+				"Bahan plastik Polycarbonate, Kuat , ringan dan fleksibel",
+				"Warna Dasar Putih, Keras, Tahan Panas.",
+				"Gambar Dicetak Full Body Meliputi Belakang, Sisi Kanan & Kiri.",
+				"Gambar Pada Case Terjamin Awet Tidak Luntur Dan Tidak Mudah Tergores",
+				"Fungsi Tombol Tidak Bermasalah",
+				"Plug And Play"
+			]
+		},
+		{
+			"name": "Flip case",
+			"price": 130000,
+			"discount": 6.5,
+			"discountDate": "2020-11-08 15:28:00",
+			"thumbnail": "/assets/img/product/photo/fashion/gambar3.jpg",
+			"photos": [
+				{ "url": "/assets/img/product/photo/fashion/gambar1.jpg", "label": "Cobaaaaaa" },
+				{ "url": "/assets/img/product/photo/fashion/gambar2.jpg", "label": "Coba deh" }
+			],
+			"description": [
+				"Bahan plastik Polycarbonate, Kuat , ringan dan fleksibel",
+				"Warna Dasar Putih, Keras, Tahan Panas.",
+				"Gambar Dicetak Full Body Meliputi Belakang, Sisi Kanan & Kiri.",
+				"Gambar Pada Case Terjamin Awet Tidak Luntur Dan Tidak Mudah Tergores",
+				"Fungsi Tombol Tidak Bermasalah",
+				"Plug And Play"
+			]
+		}
+	]
+}
